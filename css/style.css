@@ -84,11 +84,15 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 70px;
 }
+#presentation {
+    background-color: #3a3a3a;
+    width: 100%;
+}
+
 
 /* Footer */
 #social-media-networks {
