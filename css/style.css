@@ -17,14 +17,6 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
-/* Image */
-img {
-    width: 280px;
-    height: 90px;
-    margin-left: -16px;
-    margin-right: -300px;
-}
-
 /* Header */
 header {
     background-color: #ffffff;
@@ -113,11 +105,6 @@ main {
 }
 /* Media query: tablets and larger (768px and up ) */
 @media screen and (min-width: 768px) {
-    /* Image */
-    img {
-        width: 768px;
-        height: 190px;
-    }
     /* Header */
     nav {
         display: block;
@@ -154,18 +141,7 @@ main {
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    /* Image */
-    img {
-        width: 700px;
-        height: 300px;
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 550px;
-
-    }
-    
-    
-    #about a:hover{
+    #about a:hover {
         border-bottom: 1px solid chocolate;
     }
     main {
@@ -177,7 +153,4 @@ main {
         margin-top: -50px;
         margin-bottom: -50px;
     }
-    
-    
-    
 }
