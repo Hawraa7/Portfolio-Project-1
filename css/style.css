@@ -17,6 +17,13 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
+/* Image */
+img {
+    width: 280px;
+    height: 90px;
+    margin-left: -16px;
+    margin-right: -300px;
+}
 
 /* Header */
 header {
@@ -26,7 +33,7 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -34,18 +41,19 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-h1 {
+#logo {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: chocolate;
     text-align: center;
 }
 #logo-type {
     text-transform: uppercase;
-    color: #252525;
+    color: chocolate;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
+    text-align: center;
 }
 #about {
     font-size: 110%;
@@ -54,9 +62,10 @@ h1 {
 }
 #about > li {
     margin-bottom: 1em;
+    color: chocolate;
 }
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid chocolate;
 }
 /* Navbar styles with dropdown toggle */
 nav {
@@ -65,7 +74,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 0.5rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px chocolate;
     display: none;
     top: 100%;
 }
@@ -78,6 +87,7 @@ nav {
 }
 .nav-toggle-label {
     font-size: 2rem;
+    color: chocolate;
 }
 
 /* Main content */
@@ -103,6 +113,11 @@ main {
 }
 /* Media query: tablets and larger (768px and up ) */
 @media screen and (min-width: 768px) {
+    /* Image */
+    img {
+        width: 768px;
+        height: 190px;
+    }
     /* Header */
     nav {
         display: block;
@@ -116,6 +131,7 @@ main {
     }
     #about > li {
         padding-left: 1rem;
+        color: chocolate;
     }
     .nav-toggle-label {
         display: none;
@@ -138,8 +154,19 @@ main {
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    /* Image */
+    img {
+        width: 700px;
+        height: 300px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 550px;
+
+    }
+    
+    
     #about a:hover{
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid chocolate;
     }
     main {
         /* Push main content down to accomodate larger header */
