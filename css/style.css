@@ -150,7 +150,6 @@ main {
         height: 800px;
         overflow: hidden;
         display: flex;
-        position: relative;
     }
     /* Footer */
     #social-media-networks {
@@ -160,13 +159,22 @@ main {
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    /* Header */
     #about a:hover {
         border-bottom: 1px solid chocolate;
     }
+    /* Main content */
     main {
         /* Push main content down to accomodate larger header */
         margin-top: 100px;
     }
+    .gif-division {
+        width: auto;
+        height: 700px;
+        display: flex;
+        overflow: hidden;
+    }
+
     /* Footer */
     #social-media-networks {
         margin-top: -50px;
