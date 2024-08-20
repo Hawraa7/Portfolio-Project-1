@@ -93,7 +93,12 @@ main {
     height: auto;
     overflow: hidden;
     display: flex;
-    /*position: relative;*/
+}
+#attraction {
+    text-transform: uppercase;
+    color: chocolate;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -108,7 +113,7 @@ main {
 #social-media-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: chocolate;
 }
 /* Media query: tablets and larger (768px and up ) */
 @media screen and (min-width: 768px) {
@@ -139,6 +144,13 @@ main {
     main {
         /* Push main content down to accomodate larger header */
         margin-top: 102px;
+    }
+    .gif-division {
+        width: auto;
+        height: 800px;
+        overflow: hidden;
+        display: flex;
+        position: relative;
     }
     /* Footer */
     #social-media-networks {
