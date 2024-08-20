@@ -88,20 +88,12 @@ main {
     flex: 1 0 auto;
     margin-top: 70px;
 }
-/* Presentation section */
+/* Presentation division */
 #presentation {
     width: 100%;
     height: 520px;
-    background: url('../images/GifElement.gif') no-repeat center center/cover ;
+    background: url('../images/GifElement.gif') no-repeat center center/cover;
 }
-#attraction {
-    text-transform: uppercase;
-    color: chocolate;
-    margin-top: 10px;
-    font-family: 'Oswald', sans-serif;
-}
-
-
 /* Footer */
 #social-media-networks {
     text-align: center;
@@ -147,9 +139,7 @@ main {
     }
     /* Presentation section */
     #presentation {
-        width: 100%;
         height: 800px;
-        background: url('../images/GifElement.gif') no-repeat center center/cover ;
     }
     /* Footer */
     #social-media-networks {
@@ -170,10 +160,8 @@ main {
     }
     /* Presentation section */
     #presentation {
-        width: 100%;
         height: 600px;
-        background: url('../images/GifElement.gif') no-repeat center center/cover ;
-        }
+    }
 
     /* Footer */
     #social-media-networks {
