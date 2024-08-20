@@ -88,11 +88,11 @@ main {
     flex: 1 0 auto;
     margin-top: 70px;
 }
-.gif-division {
+/* Presentation section */
+#presentation {
     width: 100%;
-    height: auto;
-    overflow: hidden;
-    display: flex;
+    height: 520px;
+    background: url('../images/GifElement.gif') no-repeat center center/cover ;
 }
 #attraction {
     text-transform: uppercase;
@@ -145,11 +145,11 @@ main {
         /* Push main content down to accomodate larger header */
         margin-top: 102px;
     }
-    .gif-division {
-        width: auto;
+    /* Presentation section */
+    #presentation {
+        width: 100%;
         height: 800px;
-        overflow: hidden;
-        display: flex;
+        background: url('../images/GifElement.gif') no-repeat center center/cover ;
     }
     /* Footer */
     #social-media-networks {
@@ -168,12 +168,12 @@ main {
         /* Push main content down to accomodate larger header */
         margin-top: 100px;
     }
-    .gif-division {
-        width: auto;
-        height: 700px;
-        display: flex;
-        overflow: hidden;
-    }
+    /* Presentation section */
+    #presentation {
+        width: 100%;
+        height: 600px;
+        background: url('../images/GifElement.gif') no-repeat center center/cover ;
+        }
 
     /* Footer */
     #social-media-networks {
