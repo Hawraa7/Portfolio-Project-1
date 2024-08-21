@@ -178,13 +178,13 @@ main {
     }
     /* Presentation section */
     #presentation {
-        height: 600px;
+        height: 780px;
     }
 
     /* Footer */
     #social-media-networks {
-        margin-top: -150px;
-        margin-bottom: -50px;
+        margin-top: -80px;
+        margin-bottom: -70px;
     }
 
 }
