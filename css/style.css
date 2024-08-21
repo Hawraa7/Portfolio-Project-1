@@ -110,6 +110,13 @@ main {
     height: 520px;
     background: url('../images/GifElement.gif') no-repeat center center/cover;
 }
+/* Menu page */
+#best products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /* Footer */
 #social-media-networks {
     text-align: center;
