@@ -102,20 +102,22 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 /* Presentation section */
 #presentation {
     width: 100%;
-    height: 520px;
+    height: 540px;
     background: url('../images/GifElement.gif') no-repeat center center/cover;
 }
 /* Menu page */
 .welcome {
-    text-transform: uppercase;
-    color: chocolate;
-    font-family: 'Oswald', sans-serif;
-    font-size: 15px;
+    background: url('../images/pexels-photo-4792401 confectionary.webp') no-repeat center center/cover;
+    width: 100%;
+    height: 250px;
+}
+.products {
+    margin-top: 200px;
 }
 
 /* Footer */
@@ -159,10 +161,14 @@ main {
     }
     /* Presentation section */
     #presentation {
-        height: 870px;
-        
-    
+        height: 880px;
     }
+    /* Menu page */
+    .welcome {
+        height: 520px;
+
+    }
+
     /* Footer */
     #social-media-networks {
         margin-top: -20px;
@@ -182,9 +188,13 @@ main {
     }
     /* Presentation section */
     #presentation {
-        height: 780px;
+        height: 650px;
     }
-
+    /* Menu page */
+    .welcome {
+        height: 550px;
+        
+    }
     /* Footer */
     #social-media-networks {
         margin-top: -80px;
