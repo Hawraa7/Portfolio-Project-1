@@ -136,6 +136,15 @@ main {
     
 }
         
+/* Contact page */
+h3 {
+    font-size: 110%;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 4px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
 
 
 /* Footer */
