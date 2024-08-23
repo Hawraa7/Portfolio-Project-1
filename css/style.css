@@ -118,14 +118,22 @@ main {
     align-items: center;
     justify-content: center;
 }
-#all products {
-    display: flex;
+#products {
+    display: inline;
 }
 #products > a {
     font-size: 110%;
     letter-spacing: 2px;
     width: 50%;
     color: chocolate;
+}
+#chocolate {
+    display: inline;
+}
+.milk chocolate {
+    background: url('images/milk chocolate .jpg') no-repeat 80%;
+    width: 25%;
+    
 }
         
 
