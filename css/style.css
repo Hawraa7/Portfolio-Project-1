@@ -138,20 +138,14 @@ main {
         
 /* Contact page */
 main {
-    display: block;
-    margin-left: 20px;
-    margin-right: 20px;
+    flex: 1 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
 }
-h3 {
-    letter-spacing: 4px;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
-
-}
-h4 {
-    margin-top: 5px;
+#contact {
+    background: url();
 }
 
 tr,th, td {
