@@ -151,9 +151,26 @@ h3 {
 
 }
 h4 {
-    margin-top: 40px;
+    margin-top: 23px;
 }
 
+tr,th, td {
+    border: 1px solid black;
+}
+tr {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+tr, th, td {
+	text-align: center;
+}
+
+
+th, td {
+	border: 1px solid black;
+	padding: 2px;
+}
 
 /* Footer */
 #social-media-networks {
@@ -242,7 +259,7 @@ h4 {
     }
     
     h4 {
-        margin-top: 230px;
+        margin-top: 200px;
     }
     /* Footer */
     #social-media-networks {
