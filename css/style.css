@@ -126,11 +126,13 @@ main {
 }
 #products {
     display: inline;
+    top: 100%;
+    width: 100%;
+    margin-top: -22rem;
 }
 #products > a {
     font-size: 110%;
     letter-spacing: 2px;
-    width: 50%;
     color: chocolate;
 }
 #chocolate {
@@ -195,7 +197,9 @@ body {
 .ProductG {
     grid-template-columns: 1fr;
 }
-
+#shop{
+    margin-top: 4rem;
+}
 /* Contact page */
 main {
     flex: 1 0 auto;
@@ -297,6 +301,9 @@ th, td {
         height: 880px;
     }
     /* Menu page */
+    #products{
+        margin-top: 2rem;
+    }
     .welcome{
         height: 300px;
     }
@@ -333,6 +340,9 @@ th, td {
         height: 780px;
     }
     /* Menu page */
+    #products{
+        margin-top: 2rem;
+    }
     .welcome{
         height: 300px;
     }
