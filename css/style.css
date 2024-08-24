@@ -16,7 +16,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-    overflow: hidden;
+    overflow: auto;
 }
 /* Header */
 header {
@@ -135,7 +135,60 @@ main {
     width: 25%;
     
 }
-        
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+    overflow: auto;
+}
+
+.ProductSec {
+    margin: 2rem 0;
+}
+
+.ProductSec h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Oswald', sans-serif;
+    color: chocolate;
+}
+
+.ProductG {
+    display: grid;
+    gap: 1rem;
+}
+
+.ProductI {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.ProductI img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.ProductI h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    color: #3a3a3a;
+}
+
+.ProductI p {
+    font-size: 1rem;
+    color: #3a3a3a;
+}
+.ProductG {
+    grid-template-columns: 1fr;
+}
+
 /* Contact page */
 main {
     flex: 1 0 auto;
@@ -241,6 +294,9 @@ th, td {
         height: 520px;
 
     }
+    .ProductG {
+        grid-template-columns: repeat(2, 1fr);
+    }
     /* contact page */
     h3 {
         margin-bottom: 50px;
@@ -274,6 +330,10 @@ th, td {
     .welcome {
         height: 550px;
     }
+    .ProductG {
+        grid-template-columns: repeat(3, 0.5fr);
+    }
+
     /* contact page */
     h3 {
         margin-bottom: 60px;
