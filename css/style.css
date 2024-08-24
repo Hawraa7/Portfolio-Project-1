@@ -155,7 +155,17 @@ main {
     color: chocolate;
     background-color: rgba(92, 64, 51, 0.85);
     padding: 25px;
-
+}
+#contact-form >h3 {
+    margin-bottom: 20px;
+}
+.text-input, .email-input {
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    border: 1px solid antiquewhite;
+    border-radius: 1px;
+    padding: 0 5px;
 }
 
 tr,th, td {
