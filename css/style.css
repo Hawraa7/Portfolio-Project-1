@@ -62,6 +62,7 @@ header a {
     letter-spacing: 1px;
     font-weight: lighter;
 }
+
 #about {
     font-size: 110%;
     letter-spacing: 4px;
@@ -107,16 +108,21 @@ main {
 /* Presentation section */
 #presentation {
     width: 100%;
-    height: 540px;
+    height: auto;
     background: url('../images/GifElement.gif') no-repeat center center/cover;
 }
 /* Menu page */
-#welcome {
-    background: url('../images/pexels-photo-4792401 confectionary.webp') no-repeat center center/cover;
+.welcome {
+    /*background: url('../images/pexels-photo-4792401 confectionary.webp') no-repeat center center/cover;*/
+    overflow: hidden;
+    height:  200px;/*250px;*/
     width: 100%;
-    height: 250px;
-    align-items: center;
-    justify-content: center;
+}
+.welcome img {
+    /*background: url('../images/pexels-photo-4792401 confectionary.webp') no-repeat center center/cover;*/
+    height:  auto;/*250px;*/
+    width: 100%;
+    top: 0px;
 }
 #products {
     display: inline;
@@ -158,6 +164,7 @@ body {
 .ProductG {
     display: grid;
     gap: 1rem;
+    padding: 1rem;
 }
 
 .ProductI {
@@ -290,9 +297,8 @@ th, td {
         height: 880px;
     }
     /* Menu page */
-    .welcome {
-        height: 520px;
-
+    .welcome{
+        height: 300px;
     }
     .ProductG {
         grid-template-columns: repeat(2, 1fr);
@@ -302,7 +308,7 @@ th, td {
         margin-bottom: 50px;
     }
     h4 {
-        margin-top: 450px;
+        margin-top: 25px;
     }
 
     /* Footer */
@@ -324,11 +330,11 @@ th, td {
     }
     /* Presentation section */
     #presentation {
-        height: 650px;
+        height: 780px;
     }
     /* Menu page */
-    .welcome {
-        height: 550px;
+    .welcome{
+        height: 300px;
     }
     .ProductG {
         grid-template-columns: repeat(3, 0.5fr);
@@ -340,7 +346,7 @@ th, td {
     }
     
     h4 {
-        margin-top: 200px;
+        margin-top: 25px;
     }
     /* Footer */
     #social-media-networks {
