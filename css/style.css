@@ -137,7 +137,7 @@ main {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
     overflow: auto;*/
-}
+
 
 .ProductSec {
     margin: 2rem 0;
@@ -145,7 +145,7 @@ main {
 
 .ProductSec h3 {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
     font-family: 'Oswald', sans-serif;
     color: chocolate;
 }
@@ -173,7 +173,7 @@ main {
 
 .ProductI h4 {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #3a3a3a;
 }
 
