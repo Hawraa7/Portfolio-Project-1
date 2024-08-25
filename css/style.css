@@ -113,43 +113,30 @@ main {
 }
 /* Menu page */
 .welcome {
-    /*background: url('../images/pexels-photo-4792401 confectionary.webp') no-repeat center center/cover;*/
+    background: url('../images/pexels-photo-4792401 confectionary.webp') no-repeat center /cover;
     overflow: hidden;
-    height:  200px;/*250px;*/
+    height:  700px;
     width: 100%;
 }
-.welcome img {
-    /*background: url('../images/pexels-photo-4792401 confectionary.webp') no-repeat center center/cover;*/
-    height:  auto;/*250px;*/
-    width: 100%;
-    top: 0px;
-}
+
 #products {
     display: inline;
     top: 100%;
     width: 100%;
-    margin-top: -22rem;
+    margin-top: 10rem;
 }
 #products > a {
     font-size: 110%;
     letter-spacing: 2px;
     color: chocolate;
 }
-#chocolate {
-    display: inline;
-}
-.milk chocolate {
-    background: url('images/milk chocolate .jpg') no-repeat 80%;
-    width: 25%;
-    
-}
-body {
+/*body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-    overflow: auto;
+    overflow: auto;*/
 }
 
 .ProductSec {
@@ -170,7 +157,7 @@ body {
 }
 
 .ProductI {
-    background-color: #fff;
+    background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 0.5rem;
@@ -301,12 +288,15 @@ th, td {
         height: 880px;
     }
     /* Menu page */
+
+    /*.welcome {
+    height: 450px;
+    }*/
+
     #products{
         margin-top: 2rem;
     }
-    .welcome{
-        height: 300px;
-    }
+
     .ProductG {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -340,12 +330,13 @@ th, td {
         height: 780px;
     }
     /* Menu page */
+    /*.welcome {
+    height: 1200px;
+    }*/
     #products{
         margin-top: 2rem;
     }
-    .welcome{
-        height: 300px;
-    }
+   
     .ProductG {
         grid-template-columns: repeat(3, 0.5fr);
     }
