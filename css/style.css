@@ -115,20 +115,24 @@ main {
 .welcome {
     background: url('../images/pexels-photo-4792401 confectionary.webp') no-repeat center /cover;
     overflow: hidden;
-    height:  700px;
+    height: 700px;
     width: 100%;
 }
 
 #products {
-    display: inline;
+    display: inline-block;
+    position: relative;
     top: 100%;
     width: 100%;
-    margin-top: 10rem;
+    margin-top: 5rem;
+    
 }
 #products > a {
     font-size: 110%;
     letter-spacing: 2px;
     color: chocolate;
+    
+    
 }
 /*body {
     min-height: 100vh;
@@ -137,6 +141,7 @@ main {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
     overflow: auto;*/
+
 
 
 .ProductSec {
@@ -158,7 +163,7 @@ main {
 
 .ProductI {
     background-color: #ffffff;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
     border-radius: 5px;
     padding: 0.5rem;
     text-align: center;
@@ -174,12 +179,12 @@ main {
 .ProductI h4 {
     font-family: 'Oswald', sans-serif;
     font-size: 1rem;
-    color: #3a3a3a;
+    color: chocolate;
 }
 
 .ProductI p {
     font-size: 1rem;
-    color: #3a3a3a;
+    color: chocolate;
 }
 .ProductG {
     grid-template-columns: 1fr;
