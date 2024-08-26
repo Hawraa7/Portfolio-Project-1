@@ -236,7 +236,7 @@ main {
     background-color: antiquewhite;
 }
 .telephon {
-    display: flexbox;
+    display: table;
 }
 
 /*tr,th, td {
