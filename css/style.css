@@ -317,6 +317,8 @@ th, td {
     /* Form */
     #contact {
         background-position: center;
+        background-size: 100% cover;
+        
         
     }
     #contact-form {
