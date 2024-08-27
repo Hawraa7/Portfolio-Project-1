@@ -159,6 +159,7 @@ main {
     display: grid;
     gap: 1rem;
     padding: 1rem;
+    grid-template-columns: 1fr;
 }
 
 .ProductI {
@@ -185,9 +186,6 @@ main {
 .ProductI p {
     font-size: 1rem;
     color: chocolate;
-}
-.ProductG {
-    grid-template-columns: 1fr;
 }
 #shop{
     margin-top: 4rem;
@@ -376,8 +374,6 @@ th, td {
     .ProductG {
         grid-template-columns: repeat(3, 0.5fr);
     }
-
-    /* contact page */
 
     /* Footer */
     #social-media-networks {
