@@ -191,13 +191,6 @@ main {
     margin-top: 4rem;
 }
 /* Contact page */
-/*main {
-    flex: 1 0 auto;
-    margin-top: 98px;
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-}*/
 #communication {
     display: flex;
     flex-direction: column;
@@ -363,16 +356,13 @@ th, td {
     #presentation {
         height: 630px;
     }
-    /* Menu page */
-    /*.welcome {
-    height: 1200px;
-    }*/
-    #products{
-        margin-top: 2rem;
+     /* Contact page */
+     #contact {
+        padding: 20px 10% 0 10%;
+        margin-bottom: 20px;
     }
-   
-    .ProductG {
-        grid-template-columns: repeat(3, 0.5fr);
+    #contact-form {
+        padding: 10px;
     }
 
     /* Footer */
