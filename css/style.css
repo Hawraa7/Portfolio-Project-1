@@ -108,7 +108,7 @@ main {
 /* Presentation section */
 #presentation {
     width: 100%;
-    height: 500px;
+    height: 530px;
     background: url('../images/GifElement.gif') no-repeat center center/cover;
 }
 /* Menu page */
@@ -361,7 +361,7 @@ th, td {
     }
     /* Presentation section */
     #presentation {
-        height: 720px;
+        height: 650px;
     }
     /* Menu page */
     /*.welcome {
@@ -378,7 +378,19 @@ th, td {
     /* Footer */
     #social-media-networks {
         margin-top: -80px;
-        margin-bottom: -70px;
+        margin-bottom: -50px;
     }
 
+}
+@media screen  and  (min-width: 1400px) {
+     /* Presentation section */
+     #presentation {
+        height: 780px;
+    }
+     /* Footer */
+     #social-media-networks {
+        margin-top: -80px;
+        margin-bottom: -70px;
+    }
+    
 }
