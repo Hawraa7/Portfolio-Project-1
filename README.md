@@ -1,1 +1,3 @@
 # Cremina Confectionery
+Cremina Confectionery website is a web page for customers who want to buy sweets. Cremina Confectionery offers a variety of options for all ages and is suitable for all events. 
+Users of this website will be able to find all information about the different sweets we offer: About the prices, the menu and the contact information. This site is targeted for all people including those who want to celebrate their birthdays, or make an event or simply take a dessert.
