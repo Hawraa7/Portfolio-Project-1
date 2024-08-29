@@ -60,7 +60,14 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 ### Bugs
 
-Solved bugs
+Solved bugs 
+- When I deployed my project to Github Pges, I discovered ma project was broken, the links to the other files (CSS and images) did not work.
+
+- I discovered this was because I had used absolute file paths such as this is my code 
+
+<link rel="stylesheet" href="/assets/css/style.css">
+
+- Removing the starting / fixed the problem.
 
 
 
