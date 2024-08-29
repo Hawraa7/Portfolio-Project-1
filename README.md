@@ -69,6 +69,48 @@ Solved bugs
 
 - Removing the starting / fixed the problem.
 
+### Validator Testing
+
+- HTML
+
+(note) No errors were returned when passing through the official W3C validator.
+
+-  CSS 
+
+(note) No errors were found when passing through the official (Jigsaw) validator.
+
+- Accessibility 
+
+I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+### Unfixed bugs
+
+No unfixed bugs
+
+## Deployment 
+
+- This site was deployed to GitHub pages. The steps to deploy are as follows: 
+
+(note) In the GitHub repository, navigate to the Settings tab
+(note) From the source section drop-down menu, select the Master Branch
+(note) Once the master branch has been selected, the page provided the link to the completed website. 
+
+The live link can be found here -..........
+
+## Credits 
+
+
+### Content
+
+- The code to make the social media links was taken from the CI Love Running Project.
+
+- The icons in the footer were taken from Font Awesome.
+
+### Media 
+
+- The image in the project was taken from Pexels and image free from google.
+
+
 
 
 
