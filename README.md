@@ -54,7 +54,16 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 - I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 
-- 
+- I confirmed that the navigation, header, home, menu and contact text are all readable and easy to understand.
+
+- I have confirmed that the form works: requires entries in every field, will only accept an email in the email field.
+
+### Bugs
+
+Solved bugs
+
+
+
 
 
 
