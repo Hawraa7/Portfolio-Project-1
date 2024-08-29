@@ -9,23 +9,26 @@ Visitors can easily access details about the available sweets, including pricing
 
 - Navigation Bar
 
-(note) Featured on all the three pages, the responsive navigation includes links to the Home page, Menu page and Contact page and is identical in each page to allow for easy navigation.  
+    - Featured on all the three pages, the responsive navigation includes links to the Home page, Menu page and Contact page and is identical in each page to allow for easy navigation.  
 
-(note) The navigation clearly tells the user the name of the confectionery and makes the different sections of information easy to find in the three pages of the website.
+    - The navigation clearly tells the user the name of the confectionery and makes the different sections of information easy to find in the three pages of the website.
 
-(image lal navigation)
+![Screenshot of the navigation bar](/images/navigation.png)
+
 
 - The Header 
 
-(note) The header shows the logo and name of the confectionery and includes the navigation bar.
+    -  The header shows the logo and name of the confectionery and includes the navigation bar.
 
-(image lal header m3 llogo)
+    ![Screenshot of the header](/images/headerandlogo.png)
 
+    
 - The Home page
 
-(note) This section introduces the user to Cremina's Confectionery with an eye catching animation to grab their attention.
+    - This section introduces the user to Cremina's Confectionery with an eye catching animation to grab their attention.
 
-(image lal gif bl home page)
+![Screenshot of the home page](/images/home.png)
+
 
 - The Footer
 
@@ -36,15 +39,16 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 - The Menu page
 
-(note) This section allows the user to see what the confectionery offers. This section gives details about the menu of the confectionery including the prices and images for the products. 
+   - This section allows the user to see what the confectionery offers. This section gives details about the menu of the confectionery including the prices and images for the products. 
 
-(note) This section shows the user the important information they need to know about the sections of chocolate, the cakes and the desserts.
+    - This section shows the user the important information they need to know about the sections of chocolate, the cakes and the desserts.
 
-(image lal menu page)
+![Screenshot of the menu page](/images/menu.png)
+
 
 - The contact page 
 
-(note) This section encourage users to get in contact and provides a phone number, email address and gives them the ability to find and contact Cremina's Confectionery if they need to.
+   - This section encourage users to get in contact and provides a phone number, email address and gives them the ability to find and contact Cremina's Confectionery if they need to.
 
 (image lal contact page)
 
