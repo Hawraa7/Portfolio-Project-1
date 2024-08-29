@@ -44,7 +44,18 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 - The contact page 
 
-(note) This section 
+(note) This section encourage users to get in contact and provides a phone number, email address and gives them the ability to find and contact Cremina's Confectionery if they need to.
+
+(image lal contact page)
+
+## Testing 
+
+- I tested that this page works in different browsers: Chrome, Firefox and Safari.
+
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+
+- 
+
 
 
 
