@@ -134,15 +134,6 @@ main {
     
     
 }
-/*body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
-    overflow: auto;*/
-
-
 
 .ProductSec {
     margin: 2rem 0;
@@ -194,7 +185,6 @@ main {
 #communication {
     display: flex;
     flex-direction: column;
-    /*font-family: Arial, Helvetica, sans-serif;*/
     
 }
 #contact {
@@ -237,26 +227,6 @@ main {
 .number {
     padding-bottom: 10px;
 }
-
-
-
-/*tr,th, td {
-    border: 1px solid antiquewhite;
-}
-tr {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-tr, th, td {
-	text-align: center;
-}
-
-
-th, td {
-	border-color: antiquewhite;
-	padding: 2px;
-}*/
 
 /* Footer */
 #social-media-networks {
@@ -301,11 +271,6 @@ th, td {
     #presentation {
         height: 880px;
     }
-    /* Menu page */
-
-    /*.welcome {
-    height: 450px;
-    }*/
 
     #products{
         margin-top: 2rem;
@@ -315,7 +280,7 @@ th, td {
         grid-template-columns: repeat(2, 1fr);
     }
     /* contact page */
-    /* Form */
+    
     #contact {
         background-position: center;
         position: relative;
