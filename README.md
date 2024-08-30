@@ -50,7 +50,7 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
    - This section encourage users to get in contact and provides a phone number, email address and gives them the ability to find and contact Cremina's Confectionery if they need to.
 
-(image lal contact page)
+![Screenshot of the contact page](/images/contact.png)
 
 ## Testing 
 
