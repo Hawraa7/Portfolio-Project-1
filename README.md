@@ -77,11 +77,14 @@ Solved bugs
 
 - HTML
 
-(note) No errors were returned when passing through the official W3C validator.
+    -  No errors were returned when passing through the official [W3C validator](https://validator.w3.org).
+
+ W3C validator.
 
 -  CSS 
 
-(note) No errors were found when passing through the official (Jigsaw) validator.
+    - No errors were found when passing through the official [(jigsaw validator)](https://jigsaw.w3.org).
+ 
 
 - Accessibility 
 
@@ -95,11 +98,11 @@ No unfixed bugs
 
 - This site was deployed to GitHub pages. The steps to deploy are as follows: 
 
-(note) In the GitHub repository, navigate to the Settings tab
-(note) From the source section drop-down menu, select the Master Branch
-(note) Once the master branch has been selected, the page provided the link to the completed website. 
+    - In the GitHub repository, navigate to the Settings tab
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page provided the link to the completed website. 
 
-The live link can be found here -..........
+The live link can be found here - https://hawraa7.github.io/Portfolio-Project-1/
 
 ## Credits 
 
@@ -108,7 +111,8 @@ The live link can be found here -..........
 
 - The code to make the social media links was taken from the CI Love Running Project.
 
-- The icons in the footer were taken from Font Awesome.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/icons).
+
 
 ### Media 
 
