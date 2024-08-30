@@ -109,14 +109,14 @@ The live link can be found here - https://hawraa7.github.io/Portfolio-Project-1/
 
 ### Content
 
-- The code to make the social media links was taken from the CI Love Running Project.
+- The code to make the social media links was taken from the CI [Love Running](https://hawraa7.github.io/love-running/) Project.
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/icons).
 
 
 ### Media 
 
-- The image in the project was taken from Pexels and image free from google.
+- The image in the project was taken from [Pexels](https://www.pexels.com) and image free from google.
 
 
 
