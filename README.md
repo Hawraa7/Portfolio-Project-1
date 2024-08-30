@@ -35,7 +35,7 @@ Visitors can easily access details about the available sweets, including pricing
 The footer section includes links to the relevant social media sites for Cremina's Confectionery. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media.
 
-(image lal footer)
+![Screenshot of the footer in the menu page](/images/footer.png)
 
 - The Menu page
 
